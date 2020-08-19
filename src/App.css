@@ -1,0 +1,78 @@
+.App {
+  display: block;
+  text-align: center;
+  background-color: #ffccee;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  border-radius: 30px;
+  color: #2a2a22;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body{
+  background-color: #990066
+}
+
+#author{
+  padding-left: 60%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#quote{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button{
+  background-color:#990066;
+  border: 2px solid #990066;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color:#cc008b;
+  color: white;
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+@media screen and (max-width: 576px) {
+  .App {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .App {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .App {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .App {
+    width: 40%;
+  }
+}
